@@ -2,7 +2,7 @@
 all: build
 
 deps:
-	go get github.com/miekg/dns
+	go get github.com/benschw/dns-clb-go/dns
 	go get launchpad.net/goyaml
 
 build:

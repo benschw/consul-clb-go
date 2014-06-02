@@ -1,7 +1,11 @@
 [![Build Status](https://drone.io/github.com/benschw/consul-clb-go/status.png)](https://drone.io/github.com/benschw/consul-clb-go/latest)
 [![GoDoc](http://godoc.org/github.com/benschw/consul-clb-go?status.png)](http://godoc.org/github.com/benschw/consul-clb-go)
 
-# Consul Client Load Balancer for Go
+# Consul Client Load Balancer for Go Demo
+
+- download `demo` service here: https://github.com/benschw/consul-clb-go/releases/tag/v0.1.0
+- blog post outlining the demo: http://txt.fliglio.com/2014/05/encapsulated-services-with-consul-and-confd/
+
 
 Selects a `SRV` record answer according to specified load balancer algorithm, then resolves its `A` record to an ip, and returns an `Address` structure:
 
